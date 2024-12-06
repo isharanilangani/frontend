@@ -1,0 +1,72 @@
+.app-layout {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;  
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.dashboard-main {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.dashboard-main h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dashboard-main p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.dashboard-section {
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section h2 {
+  margin: 10px 0;
+  color: #444;
+}
+
+.dashboard-section p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.dashboard-icon {
+  font-size: 50px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.dashboard-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3;
+}

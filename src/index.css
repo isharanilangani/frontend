@@ -1,13 +1,80 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* General button styling */
+.button {
+  display: inline-block;
+  background-color: #4CAF50; /* Default background color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Spacing inside the button */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-align: center; /* Center text */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
 }
+
+/* Different button states */
+.button:hover {
+  background-color: #45a049; /* Slightly darker on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+.button:active {
+  background-color: #3e8e41; /* Even darker on click */
+  transform: translateY(0); /* Reset lift effect */
+}
+
+.button:disabled {
+  background-color: #ccc; /* Gray out disabled button */
+  color: #666; /* Dim text color */
+  cursor: not-allowed; /* Disable click effect */
+  opacity: 0.6;
+}
+
+/* Variations */
+
+/* Primary button */
+.button-primary {
+  background-color: #007bff;
+}
+
+.button-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Danger button */
+.button-danger {
+  background-color: #e74c3c;
+}
+
+.button-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Secondary button */
+.button-secondary {
+  background-color: #6c757d;
+}
+
+.button-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Small and large buttons */
+.button-small {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.button-large {
+  padding: 15px 30px;
+  font-size: 18px;
+}
+

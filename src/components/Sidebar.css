@@ -1,0 +1,160 @@
+.dashboard-sidebar {
+  width: 400px;
+  background-color: #f5cfcf;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.company-header {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 20px;
+}
+
+.company-name {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-name h2 {
+  margin: 10px;
+  font-size: 15px;
+  color: #333; 
+  text-align: center;
+  font-weight: bold;
+}
+
+.company-logo {
+  width: 60px;  
+  height: 60px;  
+  object-fit: cover;  
+  border-radius: 50%;  
+  border: 2px solid #600000;
+  display: block;  
+}
+
+.company-icon {
+  width: 60px;  
+  height: 60px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfbfbda;
+  color: #600000;
+  border-radius: 50%;  
+  font-size: 20px;
+  border: 2px solid #777;
+  overflow: hidden;  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 20px; 
+}
+
+nav ul li {
+  margin-bottom: 15px; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #777; 
+  transition: color 0.3s, font-weight 0.3s; 
+}
+
+nav ul li a:hover {
+  color: #000; 
+  font-weight: bold;
+}
+
+nav ul ul {
+  margin-left: 20px; 
+  margin-top: 10px; 
+}
+
+nav ul ul li {
+  margin-bottom: 10px; 
+}
+
+.dashboard-sidebar ul ul a {
+  font-size: 0.9rem; 
+  color: #777; 
+}
+
+.dashboard-sidebar ul ul a:hover {
+  color: #000; 
+}
+
+.details-toggle {
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #777; 
+  font-size: 1rem;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.details-toggle:hover {
+  color: #000; 
+  font-weight: bold;
+}
+
+.nested-list {
+  margin-left: 20px; 
+  margin-top: 10px; 
+  list-style: none;
+  padding: 0;
+}
+
+.nested-list li {
+  margin-bottom: 10px;
+}
+
+.nested-list li a {
+  font-size: 0.9rem;
+  color: #777;
+  text-decoration: none;
+}
+
+.nested-list li a:hover {
+  color: #000;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  background-color: #600000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  width: 90%;
+  margin-left: 5%;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+button i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
